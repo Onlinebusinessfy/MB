@@ -18,6 +18,4 @@ class PostCreateView(CreateView):
     template_name="posts/new.html"
     model=Post
     fields=["title", "subtitle", "body"]
-
-    def get_success_url(self):
-        return reverse("list")
+    success_url=reverse("list")
