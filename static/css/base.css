@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    background-color: #121212; /* Fondo negro para un look moderno */
+    color: #f0f0f0; /* Texto claro para buen contraste */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1b5e20; /* Verde oscuro para la barra de navegación */
+    border-bottom: 2px solid #4caf50; /* Verde brillante como acento */
+}
+
+.navbar-brand {
+    color: #4caf50; /* Verde brillante para resaltar la marca */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #81c784; /* Verde más claro al pasar el cursor */
+}
+
+.nav-link {
+    color: #000; /* Cambiado a negro para que sean visibles */
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #81c784; /* Verde claro al pasar el cursor */
+}
+
+.navbar-toggler {
+    border: none; /* Sin bordes para el botón de menú */
+}
+
+/* Contenedor */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Fondo gris oscuro para diferenciar del fondo principal */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave para profundidad */
+}
+
+/* Botones */
+button {
+    background-color: #4caf50; /* Botones verde brillante */
+    color: #121212; /* Texto oscuro para contraste */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #81c784; /* Verde claro al pasar el cursor */
+}
+
+/* Footer */
+footer {
+    background-color: #1b5e20; /* Verde oscuro para el pie de página */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #81c784;
+    text-decoration: underline;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        margin-right: 0;
+        padding: 5px 0;
+        text-align: center;
+    }
+}
